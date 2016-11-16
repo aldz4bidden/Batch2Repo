@@ -1,5 +1,8 @@
 import Classes.MyMethods;
 
+/**
+ * @brief Program execution starts here
+ */
 public class Main
 {
 
