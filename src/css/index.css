@@ -1,0 +1,117 @@
+body
+{
+    margin: auto;
+    background-color: #000000;
+    text-align: center;
+    border: 1px solid;
+}
+
+body header, body section, body footer
+{
+    background-color: #888888;
+}
+
+header, nav, section, article, footer, p, aside
+{
+    border: 1px solid;
+    text-align: center;
+    margin-top: 10px
+}
+
+section
+{
+    height: 500px;
+}
+
+.clear
+{
+    clear:both;
+}
+
+article
+{
+    height: 180px;
+}
+
+article header, article p, article footer
+{
+    height:20px;
+    background-color: #bbbbbb;
+}
+
+header nav
+{
+    margin: 15px;
+    background-color: #bbbbbb;
+}
+
+#section-left
+{
+    float:left;
+    width:30%;
+}
+
+#section-right article
+{
+    margin: 15px;
+}
+
+#section-right
+{
+    float:right;
+    width:68%;
+}
+
+#section-right header, #section-right footer, #article-top p
+{
+    margin: 15px;
+}
+
+#article-bottom
+{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#article-bottom p
+{
+    float: left;
+    width: 60%;
+    height: 65px;
+    margin-top: 0px;
+}
+
+#article-bottom aside
+{
+    float: right;
+    width: 36%;
+    height: 65px;
+    background-color: #bbbbbb;
+    margin-top: 0px;
+}
+
+#article-bottom header
+{
+    margin: 10px 0px 10px 0px;
+}
+
+#article-bottom footer
+{
+    margin: 0px;
+}
+
+#section-left header, #section-left nav, #section-left footer
+{
+    margin: 15px;
+    background-color: #bbbbbb;
+}
+
+#section-left nav
+{
+    height:380px;
+}
+
+#section-right footer
+{
+    background-color: #bbbbbb;
+}
